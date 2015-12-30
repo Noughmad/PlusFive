@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PlusFive</string>
+    <string name="title_story_detail">Story Detail</string>
+    <string name="no_comments">No comments</string>
+    <string name="comment_score_limit">Score: %d</string>
+    <string name="quote_loading">Loading Quote...</string>
+    <string name="account">My Account</string>
+    <string name="login">Log In</string>
+    <string name="logout">Log Out</string>
+    <string name="nickname">Nickname</string>
+    <string name="password">Password</string>
+    <string name="login_failed">Login failed</string>
+    <string name="login_success">Logged in as %s</string>
+    <string name="logout_success">Log out successful</string>
+    <string name="reply">Reply to this</string>
+    <string name="post">Post</string>
+    <string name="submit">Submit</string>
+    <string name="comment_body">Comment</string>
+    <string name="comment_subject">Subject</string>
+    <string name="comment_posted">Comment posted successfully</string>
+    <string name="comment_post_error">Unable to post a comment</string>
+    <string name="post_ac">Post Anonymously</string>
+    <string name="unable_reply">Unable to post a comment</string>
+    <string name="post_comment">Post comment</string>
+    <string name="welcome_message">Welcome to PlusFive!\n\nIf you log in with your Slashdot account, the comments will be shown according to your account settings.\n\nYou will also be able to post comments.</string>
+
+</resources>

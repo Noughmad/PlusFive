@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    
+    
+    <TextView
+        android:id="@+id/story_date_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:textAppearance="?android:attr/textAppearanceMediumInverse"
+        android:background="@drawable/story_title_background_gradient" />
+    
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/story_item_background"
+    android:paddingRight="16dp" > 
+
+    <TextView
+        android:id="@+id/story_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:paddingLeft="8dp"
+        android:paddingTop="8dp"
+        android:paddingRight="8dp"
+        android:textStyle="bold"
+        android:textColor="@color/story_item_text_color" />
+
+    <TextView
+        android:id="@+id/story_comments"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/story_title"
+        android:layout_alignParentRight="true"
+        android:paddingBottom="8dp"
+        android:paddingRight="8dp"
+        android:textColor="@color/story_item_text_color_secondary" />
+    
+</RelativeLayout>
+</LinearLayout>
